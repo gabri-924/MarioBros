@@ -17,3 +17,7 @@ FetchContent_MakeAvailable(SFML)
 SET( tap1 "01-tappa" )
 add_executable( ${tap1} ${tap1}/${tap1}.cpp )
 target_link_libraries( ${tap1} PRIVATE SFML::Graphics)
+
+SET( tap2 "02-tappa" )
+add_executable( ${tap2} ${tap2}/${tap2}.cpp )
+target_link_libraries( ${tap2} PRIVATE SFML::Graphics)
