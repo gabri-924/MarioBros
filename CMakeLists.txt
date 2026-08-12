@@ -25,3 +25,7 @@ target_link_libraries( ${tap2} PRIVATE SFML::Graphics)
 SET( tap3 "03-tappa" )
 add_executable( ${tap3} ${tap3}/${tap3}.cpp )
 target_link_libraries( ${tap3} PRIVATE SFML::Graphics)
+
+SET( tap4 "04-tappa" )
+add_executable( ${tap4} ${tap4}/${tap4}.cpp )
+target_link_libraries( ${tap4} PRIVATE SFML::Graphics)
